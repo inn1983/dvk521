@@ -1,0 +1,1 @@
+you must unplug the 74LVC8T245 when you run it.

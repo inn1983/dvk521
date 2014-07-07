@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "****************hdmi testing******************"
+
+mount /dev/mmcblk0p1 /home/linaro/waveshare_demo/API/hdmi_test/hdmi
+cp /home/linaro/waveshare_demo/API/hdmi_test/script.bin /home/linaro/waveshare_demo/API/hdmi_test/hdmi
+
+reboot
+

@@ -1,0 +1,1 @@
+you must unplug the ov7670 when you run it.

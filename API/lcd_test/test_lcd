@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "****************lcd testing******************"
+
+mount /dev/mmcblk0p1 /home/linaro/waveshare_demo/API/lcd_test/lcd
+cp /home/linaro/waveshare_demo/API/lcd_test/script.bin /home/linaro/waveshare_demo/API/lcd_test/lcd
+
+reboot
+

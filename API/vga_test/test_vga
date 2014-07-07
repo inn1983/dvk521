@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "****************vga testing******************"
+
+mount /dev/mmcblk0p1 /home/linaro/waveshare_demo/API/vga_test/vga
+cp /home/linaro/waveshare_demo/API/vga_test/script.bin /home/linaro/waveshare_demo/API/vga_test/vga
+
+reboot
+
